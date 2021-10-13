@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cb7dfbb97.js" crossorigin="anonymous"></script>
+    <title>Pin Pad</title>
+    <link rel=stylesheet href='style.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    
+</head>
+<body>
+    <div class='pin-input'>
+        <p>Enter passcode</p>   
+        <div id='pin'>
+            <span id='circle1'>◯</span>
+            <span id='circle2'>◯</span>
+            <span id='circle3'>◯</span>
+            <span id='circle4'>◯</span>
+            <span id='circle5'>◯</span>
+            <span id='circle6'>◯</span>
+        </div>
+    </div>
+    
+    <div class='pad'>
+        <div number-data class='num' id='7' value='7' onClick=addNumber(7)>7</div>
+        <div number-data class='num' id='8' value='8' onClick=addNumber(8)>8</div>
+        <div number-data class='num' id='9' value='9' onClick=addNumber(9)>9</div>
+        <div number-data class='num' id='4' value='4' onClick=addNumber(4)>4</div>
+        <div number-data class='num' id='5' value='5' onClick=addNumber(5)>5</div>
+        <div number-data class='num' id='6' value='6' onClick=addNumber(6)>6</div>
+        <div number-data class='num' id='1' value='1' onClick=addNumber(1)>1</div>
+        <div number-data class='num' id='2' value='2' onClick=addNumber(2)>2</div>
+        <div number-data class='num' id='3' value='3' onClick=addNumber(3)>3</div>
+        
+        <div number-data class='num' id='zero' value='8' onClick=addNumber(0)>0</div>       
+        
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
